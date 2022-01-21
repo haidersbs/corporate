@@ -99,6 +99,7 @@ nav{
     height: 100vh;
     overflow: hidden;
     margin: auto;
+    flex-direction: row-reverse;
 }
  .hero-left-column{
      width: 50%;
@@ -109,9 +110,17 @@ nav{
      width: 50%;
      align-self: flex-end;
      z-index: 5;
+     text-align: center;
+     background: red;
  }
  .hero-right-column img {
-    width: 55%;
+    width: 80%;
+    position: absolute;
+    z-index: 99999;
+    left: -18%;
+    overflow: hidden;
+    height: 90%;
+    bottom: 0;
 }
  .hero-title {
     font-size: 67px;
@@ -144,12 +153,12 @@ nav{
 .hero-section::before {
     position: absolute;
     content: '';
-    width: 54%;
-    height: 50%;
-    right: 0px;
-    bottom: -130px;
+    width: 39%;
+    height: 85%;
+    right: 56%;
+    bottom: -50%;
     background: blue;
-    transform: rotate(16deg) scale(1.2);
+    transform: rotate(51deg) scale(1.2);
     border-radius: 150px 0 0 0;
     z-index: 1;
     opacity: 0.5;
@@ -157,13 +166,13 @@ nav{
 .hero-section::after {
     position: absolute;
     content: '';
-    width: 53%;
-    height: 47%;
-    right: -24%;
-    bottom: -56px;
+    width: 37%;
+    height: 100%;
+    right: 84%;
+    bottom: -52%;
     background: linear-gradient(
 180deg, #29c1fa 0%, #006bdf 100%);
-    transform: rotate(16deg) scale(1.2);
+    transform: rotate(59deg) scale(1.2);
     border-radius: 150px 0 0 0;
 }
  /* hero part end */
@@ -337,7 +346,7 @@ button.solution-button a {
 }
 
 .firm-content {
-    width: 75%;
+    width: 80%;
     margin: auto;
     margin-top: 40px;
 }
