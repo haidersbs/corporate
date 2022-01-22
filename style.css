@@ -114,7 +114,7 @@ nav{
      background: red;
  }
  .hero-right-column img {
-    width: 80%;
+    width: 75%;
     position: absolute;
     z-index: 99999;
     left: -18%;
