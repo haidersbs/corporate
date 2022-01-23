@@ -388,7 +388,7 @@ button.solution-button a {
 }
 
 .best-deal-left-column {
-    width: 80%;
+    width: 60%;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -396,7 +396,7 @@ button.solution-button a {
 }
 
 .best-deal-right-column {
-    width: 20%;
+    width: 40%;
 }
 
 .best-deal-left-column h2 {
@@ -406,7 +406,7 @@ button.solution-button a {
     color: #ffffff;
     font-family: 'Open Sans';
     border-right: 1px solid #dee2e6;
-    padding-right: 50px;
+    padding-right: 20px;
 }
 
 .best-deal-left-column p {
