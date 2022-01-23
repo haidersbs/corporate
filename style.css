@@ -29,6 +29,7 @@ p{
  /* nav bar start */
  header{
      width: 100%;
+     height: 80px;
  }
 nav{
     background: #ede0e0;
@@ -38,6 +39,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
+    position: fixed;
+    z-index: 9999;
 }
 .logo {
     width: 40%;
