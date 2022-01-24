@@ -507,9 +507,11 @@ button.solution-button a {
 .client-logo img {
     width: 130px;
     margin: auto;
-    opacity: 0.3;
+    opacity: 0.5;
+    filter: grayscale(100%);
 }
 .client-logo img:hover {
+    filter: grayscale(0);
     opacity: 1;
     transition: all 0.5s ease;
 }
