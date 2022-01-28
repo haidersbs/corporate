@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Corporate Template</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
 
@@ -15,7 +16,10 @@
             <div class="logo">
                 <a href=""><img src="images/FS-1.png" alt=""></a>
             </div>
-            <div class="main-menu">
+            <div class="mobile-menu" onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="main-menu" id="mobileMenu">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -32,15 +36,20 @@
 
       <!-- hero section -->
       <div class="hero-section">
+       <div class="hero-body">
         <div class="hero-left-column">
-            <h1 class="hero-title">CONSULTING SERVICES</h1>
-            <p class="hero-para">We Provides End-to-End Solution</p>
-            <button class="hero-button"><a href="#">Schedule Demo</a></button>
-        </div>
-
-        <div class="hero-right-column">
-            <img src="images/freelancer-sumon.png" alt="image">
-        </div>
+            <div class="img-div">
+             <img src="images/freelancer-sumon.png" alt="image">
+            </div>
+         </div>
+         <div class="hero-right-column">
+            <div class="hero-item">
+             <h1 class="hero-title">CONSULTING SERVICES</h1>
+             <p class="hero-para">We Provides End-to-End Solution</p>
+             <button class="hero-button"><a href="#">Schedule Demo</a></button>
+            </div>
+         </div>
+       </div>
     </div>
     <!-- // end hero section -->
 
@@ -197,5 +206,6 @@
 
 
 <script src="https://kit.fontawesome.com/ed587cd44c.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
 </body>
 </html>
