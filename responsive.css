@@ -24,7 +24,10 @@
     }
     
     .img-div {
-        width: 130%;
+        width: 100%;
+    }
+    .img-div img {
+        width: 160%;
     }
 
     .service-box {
@@ -128,7 +131,7 @@
         width: 100%;
     }
     .img-div img {
-        width: 200%;
+        width: 160%;
     }
     
     .hero-right-column {
