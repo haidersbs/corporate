@@ -56,7 +56,8 @@ nav{
 }
 
 .mobile-menu{
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
 }
 
 .main-menu {
