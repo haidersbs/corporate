@@ -77,7 +77,7 @@ nav{
 
 .main-menu ul li a {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: bold;
     color: #211f1f;
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
