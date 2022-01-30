@@ -31,7 +31,7 @@
     }
 
     .service-box {
-        height: 80%;
+        height: 95%;
     }
 
     .best-deal-left-column {
@@ -106,7 +106,7 @@
         border: 2px solid #ffffff52;
         width: 100%;
         margin-top: 10px;
-        padding: 18px 45px;
+        padding: 15px 45px;
         transition: all 0.5s ease;
     }
     .main-menu ul li:hover {
